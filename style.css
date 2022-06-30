@@ -1,0 +1,77 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Manrope',sans-serif;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+  }
+  body{
+    background: rgb(204,204,204); 
+  }
+.font-medium{
+    font-size: 16px;
+    font-weight: 700;
+  }
+.font-regular
+  {
+    font-weight: 500;
+    font-size: 14px;
+  }
+p{
+    margin-bottom: 5px !important;
+    
+  }
+/* .page {
+    width: 790px;
+    height: 1000px;
+    min-height: 29.7cm;
+    padding: 2cm;
+    margin: 1cm auto;
+    border: 1px #D3D3D3 solid;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+   */
+/* @page {
+    size: A4;
+    margin: 0;
+  } */
+  
+/* @media print {
+    .page {
+      margin: 0;
+      border: initial;
+      border-radius: initial;
+      width: initial;
+      min-height: initial;
+      box-shadow: initial;
+      background: initial;
+      page-break-after: always;
+    }
+  } */
+  .responsive
+  {
+    width: 200px;
+    height: 200px;
+  }
+
+  page{
+    background: white;
+    display: block;
+    margin: 1cm auto;
+    padding: 2cm;
+    margin-bottom: 0.5cm;
+    box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+  }
+  page[size="A4"] {  
+    width: 21cm;
+    height: 29.7cm; 
+  }
+  @media print {
+    body, page {
+      margin: 0;
+      box-shadow: 0;
+    }
+  }
